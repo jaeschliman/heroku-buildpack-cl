@@ -40,9 +40,9 @@ if [ ! -d $CCL_DIR ]; then
 fi
 
 # add to slug 
-cp -r $CCL_DIR $BUILD_DIR
+# cp -r $CCL_DIR $BUILD_DIR
 
-echo "ccl installed" | indent
+echo "ccl installed, but not in slug" | indent
 
 # setting up paths for building
 
